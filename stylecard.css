@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ecf0f3;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #ecf0f3;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.16), -5px -5px 12px #fff;
+}
+
+.card .heading {
+    text-align: center;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+.heading h1 {
+    height: 60px;
+    width: 60px;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 45px;
+    font-weight: 700;
+    color: blue;
+    background-color: #ecf0f3;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.16), -5px -5px 12px #fff;
+    ;
+}
+
+.user,
+.password {
+    margin: 20px auto;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    ;
+    text-transform: capitalize;
+}
+
+input {
+    margin-top: 5px;
+    width: 100%;
+    font-size: 18px;
+    color: black;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.16), -5px -5px 12px #fff;
+    ;
+}
+
+input:focus {
+    border: none;
+    box-shadow: inset -2px -2px 8px rgba(0, 0, 0, 0.16), inset 2px 2px 8px #fff;
+    ;
+}
+
+.btn {
+    display: flex;
+    margin: 30px auto;
+    padding: 10px 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: ecf0f3;
+    color: blue;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.16), -5px -5px 12px #fff;
+    ;
+}
+
+.btn:hover {
+    color: aqua;
+    box-shadow: inset -5px -5px 12px rgba(0, 0, 0, 0.16), inset 5px 5px 12px #fff;
+}
+
+a {
+    font-size: 16px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.password {
+    display: block;
+}
